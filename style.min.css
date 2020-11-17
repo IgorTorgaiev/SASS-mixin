@@ -1,0 +1,8 @@
+.header{color:red;opacity:.5;transition:3s;text-align:center}
+.header:hover{color:#000;transform:scale(1.5)}
+.text{border:3px solid #ff0;border-radius:15%;margin:10px;padding:5px;text-align:center;font-family:Verdana,Geneva,Tahoma,sans-serif;font-weight:lighter;background-color:beige}
+.paragraph{background-color:#00f}
+.paragraph{color:red}
+.paragraph{font-weight:700}
+.paragraph{margin:15px}
+.paragraph{padding:20px}

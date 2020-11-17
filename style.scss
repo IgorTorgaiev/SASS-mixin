@@ -1,0 +1,72 @@
+@mixin only-header {
+    color: red;
+    opacity: 0.5;
+    transition: 3s;
+    text-align: center;
+}
+
+
+.header {
+    @include only-header;
+}
+
+.header:hover {
+    color: black;
+    transform: scale(1.5);
+}
+
+
+@mixin some-text {
+    border: 3px solid yellow;
+    border-radius: 15%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.text {
+    @include some-text;
+    background-color: beige;
+}
+
+@mixin background($backgroundColor: orange) {
+    background-color: $backgroundColor;
+}
+
+.paragraph {
+    @include background($backgroundColor: blue);
+}
+
+@mixin color ($theColor: red) {
+    color: $theColor;
+}
+
+.paragraph {
+    @include color;
+}
+
+@mixin weight ($fontWeight: bold) {
+    font-weight: bold;
+}
+
+.paragraph {
+    @include weight;
+}
+
+@mixin margin ($theMargin: 15px) {
+    margin: $theMargin;
+}
+
+.paragraph {
+    @include margin;
+}
+
+@mixin padding ($thePadding: 20px) {
+    padding: $thePadding; 
+}
+
+.paragraph {
+    @include padding;
+}

@@ -1,0 +1,44 @@
+.header {
+  color: red;
+  opacity: 0.5;
+  transition: 3s;
+  text-align: center; 
+}
+
+.header:hover {
+  color: black;
+  transform: scale(1.5); 
+}
+
+.text {
+  border: 3px solid yellow;
+  border-radius: 15%;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  background-color: beige; 
+}
+
+.paragraph {
+  background-color: blue; 
+}
+
+.paragraph {
+  color: red; 
+}
+
+.paragraph {
+  font-weight: bold; 
+}
+
+.paragraph {
+  margin: 15px; 
+}
+
+.paragraph {
+  padding: 20px; 
+}
+
+/*# sourceMappingURL=style.css.map */
